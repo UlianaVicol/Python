@@ -30,9 +30,9 @@ duration_m_f = duration_h * 60 + duration_m + 24 * 60 * (start_time_h > end_time
 
 # HW1: calculate and print duration: HOURS + MINUTES
 
-duration_h_min = duration_m_f // 60
-duration_min_min = duration_m_f % 60
+duration_h = duration_m_f // 60
+duration_m = duration_m_f % 60
 
-print("Event duration:", duration_h_min, "H", duration_min_min,  "minutes")
+print("Event duration:", duration_h, "H", duration_m,  "minutes")
 
 # print("Event duration:", duration_m_f,  "minutes")
