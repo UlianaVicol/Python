@@ -28,7 +28,7 @@ duration_h   = end_time_h - start_time_h
 duration_m   = end_time_m - start_time_m
 duration_m_f = duration_h * 60 + duration_m + 24 * 60 * (start_time_h > end_time_h) 
 
-# HW1: calculate and print duration: HOURS + MINUTES + TIME
+# HW1: calculate and print duration: HOURS + MINUTES 
 
 duration_h = duration_m_f // 60
 duration_m = duration_m_f % 60
