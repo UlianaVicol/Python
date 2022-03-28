@@ -24,12 +24,12 @@ if currency_in != "MDL":
 currency_out = input("choose: ")
 eur_2_usd = 1.1
 eur_2_mdl = 20.0
-if currency_in == "EUR" and  currency_out == "USD":
+if currency_in == "EUR" or  currency_out == "USD":
     money_out = money_in * eur_2_usd
 if currency_out == "MDL":
     money_out = money_in * eur_2_mdl
 
-if currency_in == "USD" and currency_out == "EUR":
+if currency_in == "USD"or currency_out == "EUR":
     money_out = money_in / eur_2_usd    
 if currency_out == "MDL":
     money_out = money_in * eur_2_mdl / eur_2_usd
