@@ -6,6 +6,7 @@ from random import randint
 screen = t.Screen()
 screen.bgpic('background.png')
 
+# sau: width,height = 1067,600
 WIDTH = 1067
 HEIGHT = 600
 
