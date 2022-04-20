@@ -64,7 +64,7 @@ def moveRight():
         bombX = randint(-300, 300)
         showBomb(bombX)
     if heartX in range(marrioX-20, marrioX+20):
-        SCORE == 10
+        SCORE += 10
         heartX = randint(-300, 300)
         showHeart(heartX)
     marrioX += 50
@@ -95,7 +95,7 @@ def moveLeft():
         bombX = randint(-300, 300)
         showBomb(bombX)
     if heartX in range(marrioX-20, marrioX+20):
-        SCORE == 10
+        SCORE += 10
         heartX = randint(-300, 300)
         showHeart(heartX)
     marrioX += 0
